@@ -1,11 +1,7 @@
-#main-content p {
-    color: red;
-}
-
 p {
-    color: black;
+    color: red !important;
 }
 
-strong {
+#main-content p {
     color: green;
 }
