@@ -1,3 +1,7 @@
-#sub-content p {
+body {
+    background-color: gray;
+}
+#main-content > p {
     color: red;
 }
+
