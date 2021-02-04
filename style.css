@@ -16,14 +16,13 @@ body{
 .flex-container {
     display: flex;
     background: #fff;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 
 .box {
     height: 100px;
-    min-width: 320px;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .one {
@@ -34,10 +33,9 @@ body{
 
 .two {
     background: blue;
-    
+   
 }
-
 .three {
     background: green;
-    
+      
 }
