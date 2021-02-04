@@ -1,22 +1,9 @@
-#main-content div {
-    background-color: #ccc;
-    margin: 0 0 20px 0;
-}
-
 .static-width {
     width: 300px;
-    height: 100px;
-    border-radius: 30px;
-}
-
-.percentage-width {
-    width: 70%;
-    height: 50px;
-    border-radius: 10px 20px;
-}
-
-.inline-block {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    height: 300px;
+    background-color: #606060;
+    background-image: url(https://images.unsplash.com/photo-1567299720257-2619000f105e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
 }
