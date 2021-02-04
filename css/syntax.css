@@ -1,7 +1,7 @@
-article p:first-of-type {
+li:nth-child(1), li:nth-child(7) {
     font-weight: bold;
 }
 
-article p:last-of-type {
-    color: red;
+li:nth-child(3n + 1) {
+    color: green;
 }
