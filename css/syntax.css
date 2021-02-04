@@ -1,7 +1,14 @@
-.static-width {
-    width: 300px;
+#banner {
+    width: 100%;
     height: 300px;
-    background: url(https://images.unsplash.com/photo-1567299720257-2619000f105e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80) no-repeat center;
     background-color: #606060;
-    background-size: 500px;
+    background-image: url(https://images.unsplash.com/photo-1567299720257-2619000f105e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80), 
+    url(https://images.unsplash.com/photo-1612406116843-74863302c290?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80);
+    background-repeat: no-repeat;
+    background-position: center, top right;
+    background-size: 300px, 100%;
 }
+
+/*
+https://images.unsplash.com/photo-1567299720257-2619000f105e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80
+*/
