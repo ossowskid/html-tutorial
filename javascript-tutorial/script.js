@@ -1,12 +1,11 @@
-const myVar = "Dawid"
+var youLikeMeat = true;
+var myNum = 8;
+    
 
-document.write(myVar);
-console.log(myVar);
 
-document.write(10);
+if (youLikeMeat) {
+    document.write("you like meat");
+} else {
+    document.write("you hate meat");
+}
 
-console.log(50);
-
-console.log(20 * 5);
-
-document.write(20 / 5);
