@@ -1,10 +1,4 @@
-const a = "hello";
-const b = 5;
+const string1 = "Abc";
+const string2 = "Bcd";
 
-if (!isNaN(a)) {
-    console.log("meaning of life is " + (a * b));
-} else {
-    
-    console.log("that aint even a number, thickie")
-}
-
+console.log(string1 < string2);
