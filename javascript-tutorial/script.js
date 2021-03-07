@@ -1,19 +1,28 @@
-const str = "hello, world";
+const myArray = [];
 
-console.log(str);
+myArray[0] = 25;
+myArray[1] = 35;
+myArray[2] = true;
+myArray[3] = "hello";
+myArray[2] = false;
 
-const str2 = str.slice(2, 9);
+console.log(myArray);
 
-console.log(str2);
+const myArray2 = [10, 20, "hi", false];
 
-const str3 = str.slice(2);
+console.log(myArray2);
 
-console.log(str3);
+const myArray3 = new Array();
 
-const tags = "meat, ham, salami, pork, beef, chicken";
 
-console.log(tags);
+console.log(myArray3);
 
-const tagsArray = tags.split(",");
+const myArray4 = new Array(5);
 
-console.log(tagsArray);
+console.log(myArray4);
+
+console.log(myArray2.length);
+
+console.log(myArray2.sort());
+
+console.log(myArray2.reverse());
