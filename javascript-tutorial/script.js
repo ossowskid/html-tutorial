@@ -1,19 +1,6 @@
-let average = 0;
+const a = 5;
+const b = 6;
 
-function getAverage(a, b) {
-    
-    average = (a + b) / 2;
-    console.log(average);
-    return average;
-}
+console.log(a + b);
 
-
-const myResult = getAverage(7, 11);
-
-console.log("the average is " + myResult);
-
-
-function logResult() {
-    console.log("the average is " + myResult + " inside the function");
-}
-logResult();
+console.log(Math.PI);
