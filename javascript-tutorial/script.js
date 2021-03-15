@@ -1,9 +1,21 @@
-let myString = new String();
+const myCar = new Object();
 
-myString = "hello";
+myCar.maxSpeed = 50;
+myCar.driver = "Dawid";
+myCar.drive = function () {
+    console.log("now driving");
+};
 
-console.log(myString.length);
+console.log(myCar.maxSpeed);
+myCar.drive();
 
-let myString2 = "hello there Kenobi";
+const myCar2 = {
+    maxSpeed: 70,
+    driver: "David",
+    drive: function (speed, time) {
+        console.log(speed * time);
+    }
+}
 
-console.log(myString2);
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);
