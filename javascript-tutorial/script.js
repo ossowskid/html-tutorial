@@ -1,21 +1,17 @@
-const myCar = new Object();
-
-myCar.maxSpeed = 50;
-myCar.driver = "Dawid";
-myCar.drive = function () {
-    console.log("now driving");
-};
-
-console.log(myCar.maxSpeed);
-myCar.drive();
-
 const myCar2 = {
     maxSpeed: 70,
     driver: "David",
     drive: function (speed, time) {
         console.log(speed * time);
+    },
+
+    logDriver: function () {
+        console.log("Driver name is " + this.driver);
     }
 }
 
+
+
+myCar2.logDriver();
 console.log(myCar2.maxSpeed);
 myCar2.drive(50, 3);
