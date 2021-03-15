@@ -1,33 +1,20 @@
-// const myCar = {
-//     maxSpeed: 70,
-//     driver: "David",
-//     drive: function (speed, time) {
-//         console.log(speed * time);
-//     },
+const birthday = new Date(1985, 0, 15, 11, 15, 25);
+const birthday2 = new Date(1985, 0, 15, 11, 15, 25);
+console.log(birthday.getMonth());
 
-//     logDriver: function () {
-//         console.log("Driver name is " + this.driver);
-//     }
-// };
+console.log(birthday.getFullYear());
 
-const Car = function (maxSpeed, driver) {
-    
-    this.maxSpeed = maxSpeed;
-    this.driver = driver;
-    this.drive = function (speed, time) {
-        console.log(speed * time);
-    };
-    this.logDriver = function () {
-        console.log("Driver name is " + this.driver);
-    }
-
-};
+console.log(birthday.getDate());
 
 
-const myCar = new Car(70, "Ninja Man");
-const myCar2 = new Car(10, "Humpty Dumpty");
-const myCar3 = new Car(20, "Dawid");
-const myCar4 = new Car(900, "James Bond");
+console.log(birthday.getDay());
 
-myCar.drive(30, 5);
-myCar3.logDriver();
+console.log(birthday.getHours());
+
+console.log(birthday.getTime());
+
+if (birthday.getTime === birthday2.getTime) {
+    console.log("birthdays are equal");
+} else {
+    console.log("birthdays are not equal");
+}
