@@ -1,20 +1,14 @@
-const birthday = new Date(1985, 0, 15, 11, 15, 25);
-const birthday2 = new Date(1985, 0, 15, 11, 15, 25);
-console.log(birthday.getMonth());
+const content = document.getElementById("content");
+const button = document.getElementById("show-more");
 
-console.log(birthday.getFullYear());
-
-console.log(birthday.getDate());
-
-
-console.log(birthday.getDay());
-
-console.log(birthday.getHours());
-
-console.log(birthday.getTime());
-
-if (birthday.getTime === birthday2.getTime) {
-    console.log("birthdays are equal");
-} else {
-    console.log("birthdays are not equal");
-}
+button.onclick = function () {
+    if (content.className === "open") {
+      //shrink the box
+        content.className = "";
+        button.innerHTML = "Show More";
+    } else {
+      //expand the box
+        content.className = "open";
+        button.innerHTML = "Show Less";
+  }
+};
